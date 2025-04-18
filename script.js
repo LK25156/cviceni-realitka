@@ -1,13 +1,3 @@
-/*Nejde mi to spustit
-document.title = 'Objekty v JavaScriptu | Můj blogísek';
-const siteWidth = window.innerWidth;
-document.body.innerHTML += siteWidth;
-const language = window.navigator.language;
-document.innerHTML += language;
-document.body.innerHTML = `Šířka stránky: ${window.innerWidth} px`;
-window.onload = function () {
-  document.body.innerHTML = `Šířka stránky: ${window.innerWidth} px`;
-};*/
 
 //JS1/2 Úkol 1 realitka
 
@@ -48,3 +38,15 @@ document.body.innerHTML += "<p>Mestska cast: "+ district +"</p>"
 
 apartment.status = "taken"
 document.body.innerHTML += "<p>Stav inzeratu: "+ apartment.status +"</p>"
+
+
+/*Nejde mi to spustit
+document.title = 'Objekty v JavaScriptu | Můj blogísek';
+const siteWidth = window.innerWidth;
+document.body.innerHTML += siteWidth;
+const language = window.navigator.language;
+document.innerHTML += language;
+document.body.innerHTML = `Šířka stránky: ${window.innerWidth} px`;
+window.onload = function () {
+  document.body.innerHTML = `Šířka stránky: ${window.innerWidth} px`;
+};*/
